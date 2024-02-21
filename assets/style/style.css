@@ -180,8 +180,8 @@ main
 }
 .app img
 {
-    width: 270px;
-    height: 550px;
+    width: 290px;
+    height: 600px;
     margin-left: 50px;
     /* margin-left: 30px; */
 }
@@ -211,6 +211,7 @@ main
 .hachTag img
 {
     width: 800px;
+    /* width: 200px; */
 }
 
 @media (max-width: 1389px)
