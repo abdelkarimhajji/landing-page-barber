@@ -75,7 +75,7 @@ header img
 .filter{
     position: absolute;
      width: 100vw;
-   height: 100vh;
+    height: 100vh;
     top: 0;
     /* background-color: #222227de; */
     background-color: #0000007a;
@@ -342,7 +342,54 @@ main
     .filter
     {
         /* height: 100vh; */
-        height: 1500px;
+        height: 1300px;
+    }
+    .hachTag
+    {
+        position: absolute;
+        top: 1070px;
+        /* left: 700px; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        /* left: 200px; */
+        z-index: -1;
+        order: 1;
+        /* background-color: red; */
+    }
+    .hachTag p
+    {
+        order: 2;
+        width: 45%;
+        /* order: 2; */
+    }
+    .hachTag img
+    {
+        /* order: 1; */
+        width:100%;
+    }
+}
+
+@media(max-width: 620px)
+{
+    .filter
+    {
+        /* height: 100vh; */
+        height: 1300px;
+    }
+    .hachTag
+    {
+       top: 1100px;
+    }
+}
+
+@media(max-width: 484px)
+{
+    .hachTag
+    {
+       top: 1150px;
     }
 }
 
@@ -369,5 +416,26 @@ main
     .title
     {
         height: 600px;
+    }
+    .filter
+    {
+        /* height: 100vh; */
+        height: 1400px;
+    }
+    .hachTag
+    {
+       top: 1280px;
+    }
+}
+@media(max-width: 362px)
+{
+    .filter
+    {
+        /* height: 100vh; */
+        height: 1500px;
+    }
+    .hachTag
+    {
+       top: 1380px;
     }
 }
