@@ -180,8 +180,8 @@ main
 }
 .app img
 {
-    width: 290px;
-    height: 600px;
+    width: 270px;
+    height: 570px;
     margin-left: 50px;
     /* margin-left: 30px; */
 }
@@ -193,24 +193,14 @@ main
 }
 .hachTag
 {
-    position: absolute;
-    top: 570px;
-    /* left: 700px; */
+    /* background-color: red; */
     width: 100%;
-    display: flex;
-    justify-content: end;
-    /* left: 200px; */
-    z-index: -1;
-    order: 1;
 }
-.hachTag p
-{
-    order: 2;
-    width: 45%;
-}
+
 .hachTag img
 {
-    width: 800px;
+    width:100%;
+    height: 200px;
     /* width: 200px; */
 }
 
@@ -231,7 +221,12 @@ main
     }
     .title
     {
+        padding-top: 90px;
         width: 40%;
+    }
+    .hachTag img
+    {
+        height: auto;
     }
 }
 @media(max-width: 1180px)
@@ -345,32 +340,7 @@ main
         /* height: 100vh; */
         height: 1300px;
     }
-    .hachTag
-    {
-        position: absolute;
-        top: 1070px;
-        /* left: 700px; */
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        overflow: hidden;
-        /* left: 200px; */
-        z-index: -1;
-        order: 1;
-        /* background-color: red; */
-    }
-    .hachTag p
-    {
-        order: 2;
-        width: 45%;
-        /* order: 2; */
-    }
-    .hachTag img
-    {
-        /* order: 1; */
-        width:100%;
-    }
+    
 }
 
 @media(max-width: 620px)
@@ -380,19 +350,10 @@ main
         /* height: 100vh; */
         height: 1300px;
     }
-    .hachTag
-    {
-       top: 1100px;
-    }
+    
 }
 
-@media(max-width: 484px)
-{
-    .hachTag
-    {
-       top: 1150px;
-    }
-}
+
 
 @media(max-width: 390px)
 {
@@ -421,11 +382,7 @@ main
     .filter
     {
         /* height: 100vh; */
-        height: 1400px;
-    }
-    .hachTag
-    {
-       top: 1280px;
+        height: 1440px;
     }
 }
 @media(max-width: 362px)
@@ -433,10 +390,25 @@ main
     .filter
     {
         /* height: 100vh; */
-        height: 1500px;
+        height: 1550px;
     }
     .hachTag
     {
-       top: 1380px;
+        /* background-color: red; */
+        height: 900px;
+        width: 100%;
+    }
+    .hachTag img
+    {
+        width: 100%;
+        padding-left: 0;
+        /* height: 200px; */
+    }
+    .title
+    {
+        height: 100vh;
+    }
+    .title img {
+        margin-left: 0;
     }
 }
