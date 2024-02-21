@@ -64,13 +64,13 @@ header
    /* background-color: red; */
    /* overflow: hidden; */
 }
-header p
+header img
 {
-    font-size: 60px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    font-weight: bold;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 10px;
 }
+
 
 .filter{
     position: absolute;
@@ -194,20 +194,23 @@ main
 .hachTag
 {
     position: absolute;
-    top: 500px;
+    top: 570px;
     /* left: 700px; */
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: end;
+    /* left: 200px; */
     z-index: -1;
+    order: 1;
 }
 .hachTag p
 {
-    width: 50%;
+    order: 2;
+    width: 45%;
 }
 .hachTag img
 {
-    width: 900px;
+    width: 800px;
 }
 
 @media (max-width: 1389px)
@@ -325,6 +328,7 @@ main
         display: flex;
         /* justify-content: center; */
         align-items: center;
+        padding-top: 50px;
     }
     .containerTitle
     {
@@ -363,8 +367,7 @@ main
         margin-bottom: 10px;
     }
     .title
-{
-    height: 600px;
-
-}
+    {
+        height: 600px;
+    }
 }
